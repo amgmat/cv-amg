@@ -29,10 +29,21 @@ section iframe {
 
 @media screen and (max-width: 768px) {
   header .cv {
+    padding-top: 1.5em;
+    padding-bottom: 1em;
     text-align: center; }
   header .datos {
+    padding-top: 1em;
+    padding-bottom: 1em;
     text-align: center; } }
 @media screen and (max-width: 400px) {
+  header .cv {
+    padding-top: 1em;
+    padding-bottom: 1em; }
+  header .datos {
+    padding-top: 1em;
+    padding-bottom: 1em; }
+
   section iframe {
     height: 390px;
     width: 340px; } }
