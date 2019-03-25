@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #f2f2f2; }
+
+header .foto {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  text-align: center; }
+header img {
+  border-radius: 50%; }
+header .cv {
+  padding-top: 4em;
+  padding-bottom: 1.25em; }
+header .datos {
+  padding-top: 1.75em;
+  padding-bottom: 1.5em; }
+  header .datos ul {
+    overflow: hidden;
+    text-align: left; }
+
+section .cv {
+  text-align: center; }
+section iframe {
+  height: 680px;
+  width: 480px; }
+
+@media screen and (max-width: 768px) {
+  header .cv {
+    text-align: center; }
+  header .datos {
+    text-align: center; } }
+@media screen and (max-width: 400px) {
+  section iframe {
+    height: 390px;
+    width: 340px; } }
+
+/*# sourceMappingURL=estilos.css.map */
