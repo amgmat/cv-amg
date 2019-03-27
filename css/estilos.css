@@ -18,9 +18,19 @@ header .datos {
   padding-top: 1.75em;
   padding-bottom: 1.5em; }
   header .datos ul {
+    list-style: none;
     overflow: hidden;
     text-align: left; }
 
+section .asignaturas ul {
+  list-style: none; }
+section article ul {
+  list-style: none; }
+section .lista ul {
+  list-style: none;
+  text-align: center; }
+section .capacidades ul {
+  list-style: none; }
 section .cv {
   text-align: center; }
 section iframe {

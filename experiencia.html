@@ -10,27 +10,7 @@
 <body>
 	<header>
 		<div class="container">
-			<div class="row">
-				<div class="foto col-sm-12 col-md-4">
-						<img src="img/fotot.jpg" width="150px" alt="">
-					</div>
-
-				<div class="cv col-sm-12 col-md-4">
-				<h4>Alejandro Melchor Galván</h4>
-				<p class="btn btn-info">Curriculum Vitae</p>
-				</div>
-
-				<div class="datos col-sm-12 col-md-4">
-					<ul class="datos">
-						<li><button type="button" class="btn btn-secondary">Correo:</button> amg.13.161@gmail.com</li>
-						<br>
-						<li ><button type="button" class="btn btn-secondary">Celular:</button> 5518287973</li>
-					</ul>
-						
-				</div>
 			
-			</div>
-
 			<nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
 				<div class="container">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-expanded="false" aria-label="Alternar Menu">
@@ -50,6 +30,29 @@
 					
 				</div>	
 			</nav>
+
+			<div class="row pt-3">
+				<div class="foto col-sm-12 col-md-3">
+						<img src="img/fotot.jpg" width="150px" alt="">
+					</div>
+
+				<div class="cv col-sm-12 col-md-4">
+				<h4>Alejandro Melchor Galván</h4>
+				<p class="btn btn-info">Curriculum Vitae</p>
+				</div>
+
+				<div class="datos col-sm-12 col-md-5">
+					<ul class="datos">
+						<li class="h6"><button type="button" class="btn btn-secondary">Correo:</button> amg.13.161@gmail.com</li>
+						<br>
+						<li class="h6" ><button type="button" class="btn btn-secondary">Celular:</button> 5518287973</li>
+					</ul>
+						
+				</div>
+			
+			</div>
+
+			
 						
 		</div>
 
@@ -57,17 +60,22 @@
 	<hr>
 
 	<section class="container experiencia">
-		<h2>Experiencia Laboral</h2>
-		<p>He sido docente en la Facultad de Ciencias de la UNAM del año 2013 a la fecha, impartiendo cursos como profesor adjunto</p>
+		<article>
+			<h2>Experiencia Laboral</h2>
+			<p class="h6">He sido docente en la Facultad de Ciencias de la UNAM del año 2013 a la fecha, impartiendo cursos como profesor adjunto</p>
+		</article>
 
-		<h6>Asignaturas</h6>
-		<li>Cálculo Diferencial e Integral I y II</li>
-		<li>Geometría Moderna I y II</li>
-		<li>Geometría Proyectiva</li>
-		<li>Introducción a la Geometría Avanzada</li>
-		<li>Seminario de Geometria A y B</li>
-		<li>Seminario de Topología A y B</li>
-		
+		<article class="asignaturas">
+			<h4>Asignaturas</h4>
+			<ul class="list-group asignaturas">
+				<li class="list-group-item list-group-item-action h6">Cálculo Diferencial e Integral I y II</li>
+				<li class="list-group-item list-group-item-action h6">Geometría Moderna I y II</li>
+				<li class="list-group-item list-group-item-action h6">Geometría Proyectiva</li>
+				<li class="list-group-item list-group-item-action h6">Introducción a la Geometría Avanzada</li>
+				<li class="list-group-item list-group-item-action h6">Seminario de Geometria A y B</li>
+				<li class="list-group-item list-group-item-action h6">Seminario de Topología A y B</li>
+			</ul>
+		</article>		
 	</section>
 
 		<script src="js/jquery.min.js"></script>

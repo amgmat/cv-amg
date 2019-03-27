@@ -11,28 +11,6 @@
 	<header>
 		<div class="container">
 
-			<div class="row">
-				<div class="foto col-sm-12 col-md-4">
-						<img src="img/fotot.jpg" width="150px" alt="">
-					</div>
-
-				<div class="cv col-sm-12 col-md-4">
-				<h4>Alejandro Melchor Galván</h4>
-				<p class="btn btn-info">Curriculum Vitae</p>
-				</div>
-
-				<div class="datos col-sm-12 col-md-4">
-					<ul class="datos">
-						<li><button type="button" class="btn btn-secondary">Correo:</button> amg.13.161@gmail.com</li>
-						<br>
-						<li ><button type="button" class="btn btn-secondary">Celular:</button> 5518287973</li>
-					</ul>
-						
-				</div>
-			
-			</div>
-
-			
 			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 				<div class="container">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-expanded="false" aria-label="Alternar Menu">
@@ -52,6 +30,27 @@
 					
 				</div>	
 			</nav>
+
+			<div class="row pt-3">
+				<div class="foto col-sm-12 col-md-3">
+						<img src="img/fotot.jpg" width="150px" alt="">
+					</div>
+
+				<div class="cv col-sm-12 col-md-4">
+				<h4>Alejandro Melchor Galván</h4>
+				<p class="btn btn-info">Curriculum Vitae</p>
+				</div>
+
+				<div class="datos col-sm-12 col-md-5">
+					<ul class="datos">
+						<li class="h6"><button type="button" class="btn btn-secondary">Correo:</button> amg.13.161@gmail.com</li>
+						<br>
+						<li class="h6" ><button type="button" class="btn btn-secondary">Celular:</button> 5518287973</li>
+					</ul>
+						
+				</div>
+			
+			</div>
 						
 		</div>
 
@@ -59,43 +58,60 @@
 	<hr>
 
 	<section class="container educacion">
-		<h2>Formación académica</h2>
-		<p>Licenciatura en Matemáticas en la Facultad de Ciencias, UNAM</p>
-		<p>Curso de Bootstrap</p>
-		<p>Curso de Base de Datos SQL</p>
+		<article>
+			<h2>Formación académica</h2>
+			<ul class="list-group">
+				<li class="list-group-item list-group-item-info	h6">Licenciatura en Matemáticas en la Facultad de Ciencias, UNAM</li>
+				
+				<li class="list-group-item list-group-item-info	h6">Curso de Bootstrap</li>
+				
+				<li class="list-group-item list-group-item-info	h6">Curso de Base de Datos SQL</li>	
+				
+			</ul>
+		
+		</article>
+		
 	</section>
 
-    <section class="container Conocimientos">
-    	<h2>Conocimientos</h2>
-    	<div class="row">
-    		<div class="col-sm-4 col-md-6">
-    			<li>HTML5</li>
-				<li>CSS3</li>
-				<li>SASS</li>
-				<li>Javascript</li>
-				<li>jQuery</li>
-				<li>Bootstrap4</li>
+    <section class="container conocimientos">
+    	<div class="row mt-3">
+    		<div class="col-md- 6 lista">
+    			<ul class="list-group">
+    			<h2 >Conocimientos</h2>
+    			<li class="list-group-item list-group-item-primary h6">HTML5</li>
+				<li class="list-group-item list-group-item-primary h6">CSS3</li>
+				<li class="list-group-item list-group-item-primary h6">SASS</li>
+				<li class="list-group-item list-group-item-primary h6">Javascript</li>
+				<li class="list-group-item list-group-item-primary h6">jQuery</li>
+				<li class="list-group-item list-group-item-primary h6">Bootstrap4</li>
+    			<li class="list-group-item list-group-item-primary h6">Php7</li>
+				<li class="list-group-item list-group-item-primary h6">Mysql</li>
+				<li class="list-group-item list-group-item-primary h6">SQL</li>
+				<li class="list-group-item list-group-item-primary h6">Wordpress</li>
+				<li class="list-group-item list-group-item-primary h6">Git</li>
+				<li class="list-group-item list-group-item-primary h6">Github</li>
+				<li class="list-group-item list-group-item-primary h6">LaTex</li>	
+    		    </ul>
+    		
     		</div>
 
-    		<div class="col-sm-4 col-md-6">
-    		<li>php7</li>
-			<li>Mysql</li>
-			<li>Posgrest</li>
-			<li>Git</li>
-			<li>Github</li>
-			<li>LaTex</li>
-    		</div>
+    			<div class="col lista">
+				<ul class="list-group">
+					<h2>Programas</h2>
+					<li class=" list-group-item list-group-item-success h6">Sublime Text</li>
+					<li class=" list-group-item list-group-item-success h6">Texwork</li>
+					<li class=" list-group-item list-group-item-success h6">TexnicCenter</li>
+					<li class=" list-group-item list-group-item-success h6">Postgres</li>
+				</ul>
+			</div>
+
     	</div>
 
     		
 		
 	</section>
 
-	<section class="container programas">
-		<h2>Editores</h2>
-		<li>Sublime Text</li>
-		<li>Texwork</li>
-		<li>TexnicCenter</li>
+		
 	</section>
 
 	<script src="js/jquery.min.js"></script>
