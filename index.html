@@ -6,68 +6,197 @@
 	<title>CV-Alejandro</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
+	
 </head>
-<body>
+<body data-spy="scroll" data-target="#amg-nav">
 	<header>
 		<div class="container">
 
-			<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-				<div class="container">
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-expanded="false" aria-label="Alternar Menu">
-					<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="menu">
-						<ul class="navbar-nav mr-auto amg-nav">
-							<li class="nav-item active">
-								<a href="index.html" class="nav-link">Sobre mí</a></li>
-								
-							<li class="nav-item">
-								<a href="experiencia.html" class="nav-link">Experiencia Profesional</a></li>
-							
-							<li class="nav-item"><a href="educacion.html" class="nav-link">Educación y Conocimientos</a></li>
-
-							<li class="nav-item"><a href="capacidades.html" class="nav-link">Capacidades</a></li>
-
-							<li class="nav-item"><a href="cv-descargable.html" class="nav-link">CV en PDF</a></li>
-						</ul>
-					</div>
-				</div>	
-			</nav>
-
-			<div class="row pt-5">
+			<div class="row pt-3">
 				<div class="foto col-sm-12 col-md-3">
 						<img src="img/fotot.jpg" width="150px" alt="">
 					</div>
 
-				<div class="cv col-sm-12 col-md-4">
+			<div class="cv col-sm-12 col-md-4">
 				<h4>Alejandro Melchor Galván</h4>
-				<p class="btn btn-info">Curriculum Vitae</p>
-				</div>
-
-				<div class="datos col-sm-12 col-md-5">
-					<ul class="datos">
-						<li class="h6"><button type="button" class="btn btn-secondary">Correo:</button> amg.13.161@gmail.com</li>
-						<br>
-						<li class="h6" ><button type="button" class="btn btn-secondary">Celular:</button> 5518287973</li>
-					</ul>
-						
-				</div>
+				<p class="h6">Curriculum Vitae</p>
 			</div>
 
-						
+			<div class="datos col-sm-12 col-md-5">
+					<ul class="datos">
+						<li><p class="h6">Correo:</p> amg.13.161@gmail.com</li>
+						<br>
+						<li><p class="h6">Celular:</p> 5518287973</li>
+					</ul>
+			</div>
+		</div>			
 						
 		</div>
 
 	</header>
 	<hr>
 
-	<section class="container sobre-mi">
-		<h2>Sobre mi</h2>
-		<p class="h6">Me defino como una persona con muchas ganas de aprender y abierta a muchos temas.</p>
+	<section class="container sobre-mi" id="sobre-mi">
+		<div class="row">
+			<div class=" col-xs-12 col-md-4 col-lg-2 mt-3">
+				<nav class="navbar navbar-expand-lg bg-info">
+					<div class="container amg-n">
+						<div class=" amg-nav" id="menu">
+						<ul class="navbar-nav nav amg-nav">
+							<li class="nav-item">
+								<a href="#sobre-mi" class="nav-link text-light">Sobre mí</a></li>
 
-		<p class="h6">Desde siempre me han gustado las matemáticas y eso me desperto el interes por estudiar la Licenciatura en Matemáticas. Ya dentro de la Facultad de Ciencias aprendi la gran importancia de razonar los problemas y no solo memorizar los conocimientos, pues en el razonar sin importar la problematica debera haber un camino mejor para un optimo resultado.</p>
+							<li class="nav-item"><a href="#educacion" class="nav-link text-white">Educación</a></li>
+								
+							<li class="nav-item">
+								<a href="#experiencia" class="nav-link text-white">Experiencia Profesional</a></li>
+							
+							<li class="nav-item"><a href="#profesionales" class="nav-link text-white">Habilidades Profesionales</a></li>
 
-		<p class="h6">Durante mis estudios tuve una incursion en el diseño web, la cual desperto en mi un gran interés y por lo cual empece a adentrarme más en este mundo, donde he podido aplicar la forma de pensar que adquiri en mi carrera, podiendo asi expander mis areas de conocimientos.</p>
+							<li class="nav-item"><a href="#personales" class="nav-link text-white">Habilidades Personales</a></li>
+
+							<li class="nav-item"><a href="#cv" class="nav-link text-white">CV en PDF</a></li>
+						</ul>
+					</div>
+					</div>	
+				</nav>
+			</div>
+
+			<div class="col-md-8 mt-3">
+				<p class="bg-info text-dark h4">Sobre mi</p>
+				<p class="h6">Me defino como una persona con muchas ganas de aprender y abierta a muchos temas.</p>
+
+				<p class="h6">Desde siempre me han gustado las matemáticas y eso me desperto el interes por estudiar la Licenciatura en Matemáticas. Ya dentro de la Facultad de Ciencias aprendi la gran importancia de razonar los problemas y no solo memorizar los conocimientos, pues en el razonar sin importar la problematica debera haber un camino mejor para un optimo resultado.</p>
+
+				<p class="h6">Durante mis estudios tuve una incursion en el diseño web, la cual desperto en mi un gran interés y por lo cual empece a adentrarme más en este mundo, donde he podido aplicar la forma de pensar que adquiri en mi carrera, podiendo asi expander mis areas de conocimientos.</p>
+	</div>
+			
+		</div>
+		
+	</section>
+
+	<hr>
+
+	<section class="container educacion" id="educacion">
+		<div class="row">
+			<div class="col">
+				<article>
+				<h4 class="bg-info">Formación académica</h4>
+				<ul class="list-group">
+				<li class="list-group-item	h6">Licenciatura en Matemáticas en la Facultad de Ciencias, UNAM</li>
+				
+				<li class="list-group-item	h6">Curso de Bootstrap</li>
+				
+				<li class="list-group-item	h6">Curso de Base de Datos SQL</li>	
+				
+				</ul>
+		
+				</article>
+			</div>
+		</div>
+		
+		
+	</section>
+
+	<hr>
+
+	<section class="container experiencia" id="experiencia">
+		<div class="row">
+			<div class="col">
+				<article >
+			<h4 class="bg-info">Experiencia Profesional</h4>
+			<p class="h6">He sido docente en la Facultad de Ciencias de la UNAM del año 2013 a la fecha, impartiendo  los siguientes cursos como profesor adjunto:</p>
+		</article>
+
+		<article class="asignaturas">
+			<ul class="list-group asignaturas">
+				<li class="list-group-item list-group-item-action h6">Cálculo Diferencial e Integral I y II</li>
+				<li class="list-group-item list-group-item-action h6">Geometría Moderna I y II</li>
+				<li class="list-group-item list-group-item-action h6">Geometría Proyectiva</li>
+				<li class="list-group-item list-group-item-action h6">Introducción a la Geometría Avanzada</li>
+				<li class="list-group-item list-group-item-action h6">Seminario de Geometria A y B</li>
+				<li class="list-group-item list-group-item-action h6">Seminario de Topología A y B</li>
+			</ul>
+		</article>	
+			</div>
+		</div>
+			
+	</section>
+
+	<hr>
+
+
+    <section class="container profesionales" id="profesionales">
+    	<h4 class="bg-info">Habilidades Profesionales</h4>
+    		<div class="row mt-3">
+    			<div class="col">
+    				<p>Durante mi carrera profesional y capacitaciones, he trabajado y desarrollado las siguientes habilidades en lenguajes de programación, frameworks y softwares: </p>	
+    			</div>
+       			
+    			<div class="col-sm-12 lista">
+    			<ul class="alineacion">
+    			<li>HTML5 & CSS3</li>
+				<li>SASS</li>
+				<li>Javascript</li>
+				<li>jQuery</li>
+				<li>Bootstrap4</li>
+    			<li>Php7</li>
+				<li>Mysql</li>
+				<li>SQL</li>
+				<li>Wordpress</li>
+				<li>Git & Github</li>
+				<li>LaTex</li>	
+    		    </ul>	
+    			</div>
+    			
+    		
+    			<div class="col-sm-12 lista">
+    				<h4>Programas</h2>	
+					<ul class="alineacion">
+					<li>Sublime Text</li>
+					<li>Texwork & TexnicCenter</li>
+					<li>PostgreSQL</li>
+					<li>Gitkraken</li>
+					</ul>
+			</div>
+
+    	</div>
+
+	</section>
+
+	<hr>
+
+	<section class="container personales" id="personales">
+		<h4 class="bg-info">Habilidades Personales</h4>
+		<div class="row mt-3">
+			<div class="col">
+				<p>A lo largo de mis casi 6 años de experiencia en el sector de la enseñanza y en mis capacitaciones, he desarrollado una serie de habilidades, valores de trabajo y contancia que me han permitido crecer. A Continuación detallo algunas esas habilidades.
+			</p>
+			</div>
+						
+			<div class="col-sm-12 lista">
+			<ul class="alineacion">
+			<li>Proactivo</li>
+			<li>Autodidacta</li>
+			<li>Paciente</li>
+			<li>Responsable</li>
+			<li>Facilidad para adaptarse</li>
+			<li>Facilidad para aprender</li>
+			<li>Facilidad de palabra para transmitir</li>
+			<li>Análista</li>
+			</ul>
+			</div>
+		</div>				
+
+	</section>
+
+	<hr>
+
+	<section class="container cv" id="cv">
+		<div class="cv">
+			<h4>CV-PDF</h4>
+			<iframe src="https://drive.google.com/file/d/1MR-UP_TZIdh5xlOXtCCgf_fwc0OG9C9T/preview"></iframe>
+		</div>
 	</section>
 
 	<footer>

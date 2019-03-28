@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAGG,qBAAO;EACN,UAAU,EAAE,uBAAqB;AAIjC,6BAAO;EACN,UAAU,EAAE,uBAAqB;AAErC,qEAAiD;EAC/C,WAAW,EAAE,IAAI;AAEnB,QAAG;EACF,WAAW,EAAE,IAAI",
-"sources": ["estilos2.sass"],
-"names": [],
-"file": "estilos2.css"
-}
