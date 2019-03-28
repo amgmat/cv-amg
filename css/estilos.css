@@ -22,8 +22,6 @@ header .datos {
     overflow: hidden;
     text-align: left; }
 
-section .asignaturas ul {
-  list-style: none; }
 section .lista {
   padding: 0 0 0 60px; }
   section .lista .alineacion {
