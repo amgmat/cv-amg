@@ -27,6 +27,8 @@ section .lista {
   section .lista .alineacion {
     text-align: left;
     display: inline-block; }
+section .web {
+  padding: 10px 0px 5px 10px; }
 section .cv {
   text-align: center; }
 section iframe {
