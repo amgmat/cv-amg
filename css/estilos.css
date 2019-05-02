@@ -37,8 +37,13 @@ section iframe {
 
 footer .container p {
   text-align: center;
-  margin: 10px;
+  margin: 10px 0 0 0;
   padding: 5px; }
+footer .container .subir {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  float: right; }
 
 @media screen and (max-width: 768px) {
   header .cv {
