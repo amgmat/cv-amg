@@ -22,11 +22,9 @@ header .datos {
     overflow: hidden;
     text-align: left; }
 
-section .lista {
-  padding: 0 0 0 60px; }
-  section .lista .alineacion {
-    text-align: left;
-    display: inline-block; }
+section .profesionales .lista {
+  justify-content: center;
+  font-size: 16px; }
 section .web {
   padding: 10px 0px 5px 10px; }
 section .cv {
@@ -35,15 +33,16 @@ section iframe {
   height: 680px;
   width: 480px; }
 
-footer .container p {
-  text-align: center;
-  margin: 10px 0 0 0;
-  padding: 5px; }
 footer .container .subir {
   color: #fff;
   text-decoration: none;
   display: block;
-  float: right; }
+  float: right;
+  padding: 5px; }
+footer .container .amg p {
+  text-align: center;
+  margin: 10px 0 0 0;
+  padding: 0 0 10px 100px; }
 
 @media screen and (max-width: 768px) {
   header .cv {
@@ -53,7 +52,14 @@ footer .container .subir {
   header .datos {
     padding-top: 1em;
     padding-bottom: 1em;
-    text-align: center; } }
+    text-align: center; }
+
+  section iframe {
+    height: 500px;
+    width: 370px; }
+
+  footer .container .amg p {
+    padding: 0 0 10px 50px; } }
 @media screen and (max-width: 400px) {
   header .cv {
     padding-top: 1em;
@@ -64,6 +70,9 @@ footer .container .subir {
 
   section iframe {
     height: 390px;
-    width: 340px; } }
+    width: 340px; }
+
+  footer .container .amg p {
+    padding: 0 0 10px 20px; } }
 
 /*# sourceMappingURL=estilos.css.map */
