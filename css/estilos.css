@@ -23,8 +23,7 @@ header .datos {
     text-align: left; }
 
 section .profesionales .lista {
-  justify-content: center;
-  font-size: 16px; }
+  text-align: center; }
 section .web {
   padding: 10px 0px 5px 10px; }
 section .cv {
